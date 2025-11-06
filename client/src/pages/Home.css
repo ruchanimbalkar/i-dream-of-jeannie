@@ -1,0 +1,27 @@
+.about-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+p {
+  background-color: #ff8093;
+  padding: 5px;
+  border: 0.3rem dotted #cc0066;
+}
+
+p:hover {
+  font-family: "Mystery Quest", system-ui;
+  border: dashed;
+}
+a:hover {
+  background-color: #ccffcc;
+  color: #006600;
+  text-decoration: none;
+}
+
+@media (min-width: 699px) /*from 699px to next breakpoint*/ {
+  .about-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}

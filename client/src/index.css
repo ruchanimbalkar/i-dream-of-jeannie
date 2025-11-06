@@ -1,0 +1,26 @@
+:root {
+  font-family: "Emilys Candy", serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #ffc0cb;
+  color: #800040;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-shadow: 1px 1px 2px #990099, 0 0 1em #990099, 0 0 0.2em #990099;
+}
+
+h1:hover {
+  color: #ff8093;
+}

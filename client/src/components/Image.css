@@ -1,0 +1,7 @@
+img {
+  background-color: #cc6699;
+  border: 1rem dotted #cc0066;
+  height: 500px;
+  padding: 2px;
+  max-width: 100%;
+}

@@ -1,0 +1,16 @@
+.character-card {
+  border: 0.6rem dotted #ff0066;
+  background-color: #ff69b4;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
+.character-card:hover {
+  border: thick double #cc0066;
+}
+
+.character-card h2 {
+  text-decoration: underline overline;
+}
