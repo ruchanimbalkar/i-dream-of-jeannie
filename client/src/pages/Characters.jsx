@@ -1,5 +1,5 @@
 import Card from "../components/CharacterCard.jsx";
-export default function Home({ characters }) {
+export default function Characters({ characters }) {
   return (
     <>
       <h2>Welcome to the Home Page</h2>
