@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <h2>Fantasy Sitcom</h2>
 
-          <figure class="offset-image">
+          <figure className="offset-image">
             <Image
               srcText="https://i2.pickpik.com/photos/482/780/991/barbara-eden-actress-retro-tv-preview.jpg"
               altText="Barbara Eden"

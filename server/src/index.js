@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 //Helper Functions
 
 const getAllCharacters = async () => {
-  //Read all animals data from NEON database
+  //Read all charcters data from NEON database
   //db.query() lets us query the SQL database
   //It takes in one parameter :  a SQL query!
   const data = await db.query("SELECT * FROM characters");
